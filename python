@@ -1,0 +1,6 @@
+n= str(input('digite seu nome:'))
+endereço = input(' digite seu endereço :)
+peso = float(input(' qual é seu peso? (kg)'))
+altura = float( input(' qual é sua altura?(m)'))
+imc = peso/ (altura **2)
+print ('o imc dessa pessoa é de {:.1f}'.format(imc))
